@@ -19,4 +19,9 @@
         android:name="com.example.dz_3_7.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
+
+    <argument
+        android:name="model"
+        app:argType="java.io.Serializable"
+        />
 </navigation>
